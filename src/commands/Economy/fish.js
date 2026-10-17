@@ -7,7 +7,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 const FISH_COOLDOWN = 5 * 60 * 1000; 
 const BASE_MIN_REWARD = 300;
 const BASE_MAX_REWARD = 900;
-const FISHING_ROD_MULTIPLIER = 1.5;
+const FISHING_ROD_MULTIPLIER = 7.0;
 
 const FISH_TYPES = [
     { name: 'Bass', emoji: '🐟', rarity: 'common' },
