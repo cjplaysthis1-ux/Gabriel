@@ -6,7 +6,7 @@ import { logger } from '../../utils/logger.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 import { botConfig } from '../../config/bot.js';
 
-const WORK_COOLDOWN = botConfig.economy?.cooldowns?.work ?? 5* 5 * 1000;
+const WORK_COOLDOWN = botConfig.economy?.cooldowns?.work ?? 5 * 5 * 100;
 const MIN_WORK_AMOUNT = botConfig.economy?.workMin ?? 100;
 const MAX_WORK_AMOUNT = botConfig.economy?.workMax ?? 1000;
 const LAPTOP_MULTIPLIER = 1.5;
